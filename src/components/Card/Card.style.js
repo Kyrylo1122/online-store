@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const ProductImage = styled.img`
   width: 100%;
@@ -8,7 +8,7 @@ export const ProductImage = styled.img`
 `;
 
 export const ProductCard = styled.li`
-  width: calc((100% / 3) - 40px);
+  flex-basis: calc((100% / 3) - 80px);
   padding: 16px;
   margin: 20px;
   transform: scale(1);
@@ -35,7 +35,7 @@ export const TextOutOfStock = styled.p`
   top: 50%;
   left: 50%;
   position: absolute;
-  color: ${(p) => p.theme.colors.grey};
+  color: ${p => p.theme.colors.grey};
   font-weight: 400;
   font-size: 24px;
   line-height: 1.6;

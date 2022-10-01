@@ -1,12 +1,12 @@
-import { Box } from "../Box";
-import Logo from "../Logo/Logo";
-import Navigation from "./Navigation/Navigation";
-import Actions from "./Actions/Actions";
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Box } from '../Box';
+import Logo from '../Logo/Logo';
+import Navigation from './Navigation/Navigation';
+import Actions from './Actions/Actions';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 export default function AppBar() {
-  const currency = useSelector((state) => state.currency);
+  const currency = useSelector(state => state.currency);
   return (
     <Box as="header" boxShadow="rgba(0, 0, 0, 0.15) 0px 3px 10px">
       <Box
@@ -18,7 +18,7 @@ export default function AppBar() {
       >
         <Box as="nav">{<Navigation />}</Box>
         <Box>
-          <Link to="/">
+          <Link to="/all">
             <Logo />
           </Link>
         </Box>

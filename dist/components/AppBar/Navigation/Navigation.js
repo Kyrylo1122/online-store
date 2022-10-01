@@ -20,10 +20,10 @@ function Navigation() {
       {(_a = data === null || data === void 0 ? void 0 : data.categories) === null || _a === void 0 ? void 0 : _a.map(function (_a) {
             var name = _a.name;
             return (<Navigation_style_1.NavigationItem key={name}>
-          <Navigation_style_1.NavigationLink to={name === "all" ? "/" : name} state={name}>
-            {name}
-          </Navigation_style_1.NavigationLink>
-        </Navigation_style_1.NavigationItem>);
+            <Navigation_style_1.NavigationLink to={name} state={name}>
+              {name}
+            </Navigation_style_1.NavigationLink>
+          </Navigation_style_1.NavigationItem>);
         })}
     </Box_1.Box>);
 }

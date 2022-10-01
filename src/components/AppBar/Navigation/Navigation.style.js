@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 export const NavigationItem = styled.li`
-  margin: ${(p) => p.theme.space[3]}px;
+  margin: ${p => p.theme.space[3]}px;
 `;
 export const NavigationLink = styled(NavLink)`
   padding-bottom: 30px;
@@ -14,8 +14,8 @@ export const NavigationLink = styled(NavLink)`
   color: inherit;
   text-transform: capitalize;
   &.active {
-    color: ${(p) => p.theme.colors.accent};
+    color: ${p => p.theme.colors.accent};
     font-weight: 600;
-    border-bottom: 1px solid ${(p) => p.theme.colors.accent};
+    border-bottom: 2px solid ${p => p.theme.colors.accent};
   }
 `;
