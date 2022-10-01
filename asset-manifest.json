@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.1aab3ee4.css",
-    "main.js": "/react-homework-template/static/js/main.a0571db6.js",
-    "static/media/BrandIcon.svg": "/react-homework-template/static/media/BrandIcon.c06a5a2f12977abf2dabceb97135f3be.svg",
-    "index.html": "/react-homework-template/index.html",
-    "main.1aab3ee4.css.map": "/react-homework-template/static/css/main.1aab3ee4.css.map",
-    "main.a0571db6.js.map": "/react-homework-template/static/js/main.a0571db6.js.map"
+    "main.css": "/online-store/static/css/main.1aab3ee4.css",
+    "main.js": "/online-store/static/js/main.6026022a.js",
+    "static/media/BrandIcon.svg": "/online-store/static/media/BrandIcon.c06a5a2f12977abf2dabceb97135f3be.svg",
+    "index.html": "/online-store/index.html",
+    "main.1aab3ee4.css.map": "/online-store/static/css/main.1aab3ee4.css.map",
+    "main.6026022a.js.map": "/online-store/static/js/main.6026022a.js.map"
   },
   "entrypoints": [
     "static/css/main.1aab3ee4.css",
-    "static/js/main.a0571db6.js"
+    "static/js/main.6026022a.js"
   ]
 }
